@@ -67,7 +67,7 @@ RUN ./configure \
   --with-openssl \
   --with-pear \
   --with-pdo-mysql \
-  --with-oci=instantclient,/usr,11.2 \
+  --with-oci8=instantclient,/usr/lib/oracle/11.2/client64/lib \
   --with-pdo-oci=instantclient,/usr,11.2 \
   --with-pdo-pgsql \
   --with-png-dir=/usr \
